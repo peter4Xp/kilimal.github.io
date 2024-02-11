@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.upper-head,
+.right-div,
+.main-head,
+.search-main-div,
+.selection-div,
+.links-div,
+.main-cart-div,
+.cart-div,
+.account-div,
+.offer-time-div,
+.d1,
+.upper-footer,
+.header-3-div,.lower-info,.text-flash-sale {
+  display: flex;
+}
+.upper-footer, .header-3-div,.lower-info,.text-flash-sale,.upper-head{
+  justify-content: center;
+  align-items: center;
+}
+.lower-info p,.save-cash-class,.txt:hover,.search-btn{
+  color: white;
+}
+.upper-info span,.lower-info,.d1-orig  {
+  background-color:  #0bf016;;
+}

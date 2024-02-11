@@ -1,0 +1,140 @@
+header {
+  position: relative;
+  height: 150px;
+}
+/* upper head div css code */
+.upper-head {
+  background-color: #f3f5f9;
+  height: 40px;
+}
+.left-div {
+  width: 600px;
+  color: #575757;
+}
+div a {
+  text-decoration: none;
+  color: #575757;
+}
+.seller-tag {
+  margin: 10px;
+}
+.vert-line {
+  margin: 7.5px;
+}
+.right-div {
+  width: 600px;
+  justify-content: right;
+}
+.phone-icon {
+  height: 16px;
+}
+.track-link {
+  margin-right: 10px;
+}
+.help-link {
+  margin-left: 10px;
+}
+a {
+  transition: color 0.25s;
+}
+a:hover {
+  color: orange;
+}
+
+/* main head css code */
+.main-head {
+  margin: 0 32px 10px 32px;
+  padding: 25px 25px;
+}
+.kilimall-img-div {
+  width: 200px;
+}
+.kilimall-img {
+  width: 164px;
+  margin-right: 45px;
+}
+.search-main-div {
+  border: 2px solid#f75433;
+  border-radius: 20px;
+  width: 580px;
+  height: 40px;
+  align-items: center;
+}
+.search-div {
+  padding: 0 30px 0 20px;
+  width: 438px;
+}
+.search-icon {
+  font-size: 18px;
+}
+.search-input {
+  border: 0;
+}
+.selection-div {
+  height: 100%;
+}
+.selection-div select {
+  color: #909399;
+  background-color: #f6f6f6;
+  border: none;
+}
+.search-button-div {
+  height: 100%;
+}
+.search-btn {
+  border: none;
+  transition: crusor 0.5s;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  font-size: 18px;
+  background-color: #f75433;
+  padding: 7.7px 6px;
+}
+.search-btn:hover {
+  cursor: pointer;
+}
+
+/* links css code */
+.links-div {
+  position: absolute;
+  left: 249px;
+  bottom: 8px;
+}
+.links-div a {
+  margin: 0 5px 0 5px;
+  font-size: 12px;
+  color: #606266;
+  transition: color 0.5s, text-decoration 0.5s;
+}
+.links:hover {
+  text-decoration: underline;
+  color: #f75433;
+}
+.links-div p {
+  font-size: 12px;
+  color: #aeaeae;
+}
+
+/* shopping cart div codes */
+.main-cart-div {
+  width: 400px;
+  margin-left: 70px;
+}
+.main-cart-div i {
+  margin: 0 5px;
+}
+.cart-div,
+.account-div {
+  align-items: center;
+  width: 150px;
+}
+.cart-div,
+.account-div {
+  margin-left: 20px;
+  transition: color 0.5sec, crusor 0.5sec;
+}
+.cart-div:hover,
+.account-div:hover {
+  color: #f75433;
+  cursor: pointer;
+}

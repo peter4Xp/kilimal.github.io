@@ -1,0 +1,45 @@
+.text-flash-sale {
+  background: url("/Images/flashsales_header.png");
+  height: 100px;
+  margin-top: 40px;
+  box-shadow: 2px 2px 10px rgba(216, 216, 216, 0.6);
+}
+.text-flash-sale p {
+  color: #333;
+  font-family: "Caveat", cursive;
+  font-size: 32px;
+}
+.offer-time-div {
+  height: 55px;
+  background-color: white;
+  display: flex;
+}
+
+.offer-time-div p {
+  font-size: 24px;
+  color: #666;
+  margin: 10px auto 0 auto;
+}
+
+#txt-org {
+  color: white;
+}
+.d1 {
+  transition: crusor 0.5s, background-color 0.5s;
+  border-bottom: 1px solid #220fce;
+}
+.d1:hover {
+  cursor: pointer;
+  background-color: #2a08e7;
+}
+.txt {
+  transition: color 0.5s;
+}
+
+.offer-time-div div {
+  text-align: center;
+  height: 55px;
+  padding: 0 20px;
+  margin: 0 50px;
+  width: 250px;
+}

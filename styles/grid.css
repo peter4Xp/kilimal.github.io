@@ -1,0 +1,38 @@
+.main-grid-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 28px;
+  background-color: #f3f5f9;
+  padding: 30px 30px 50px 30px;
+  height: 950px;
+}
+.img-1-class {
+  width: 100%;
+  background-color: white;
+}
+.img-1 {
+  width: 100%;
+}
+.upper-info {
+  display: grid;
+  grid-template-columns: 130px 110px;
+  padding: 10px 8px;
+}
+
+.org-price {
+  color: rgb(0, 204, 10);
+  font-weight: bold;
+}
+.upper-info span {
+  padding: 3px 3px;
+}
+
+.lower-info {
+  height: 40px;
+  margin: 10px 0;
+}
+.lower-info p {
+  font-size: 18px;
+  cursor: pointer;
+}
